@@ -1,0 +1,21 @@
+{
+  "name": "xpac/core",
+  "description": "XPAC PHP core",
+  "author": "the XPAC Group",
+  "version": "1.0.1",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "XPAC Group",
+      "email": "xpactheme@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "XPACGroup\\Core\\v1_0_1\\": "src/"
+    }
+  }
+}

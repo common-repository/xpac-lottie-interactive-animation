@@ -1,0 +1,81 @@
+{
+    "packages": [
+        {
+            "name": "xpac/core",
+            "version": "1.0.1",
+            "version_normalized": "1.0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://gitlab.com/xpac-group/core/core.git",
+                "reference": "aa5ec8ad297a80d18516a2d466d9458657499460"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab.com/api/v4/projects/29395041/packages/composer/archives/xpac/core.zip?sha=aa5ec8ad297a80d18516a2d466d9458657499460",
+                "reference": "aa5ec8ad297a80d18516a2d466d9458657499460",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4"
+            },
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "XPACGroup\\Core\\v1_0_1\\": "src/"
+                }
+            },
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "XPAC Group",
+                    "email": "xpactheme@gmail.com"
+                }
+            ],
+            "description": "XPAC PHP core",
+            "install-path": "../xpac/core"
+        },
+        {
+            "name": "xpac/plugin",
+            "version": "1.0.1",
+            "version_normalized": "1.0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://gitlab.com/xpac-group/core/plugin.git",
+                "reference": "52c880e490755dc88bb6bf5f34fbdef7db32a2ee"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab.com/api/v4/projects/30154119/packages/composer/archives/xpac/plugin.zip?sha=52c880e490755dc88bb6bf5f34fbdef7db32a2ee",
+                "reference": "52c880e490755dc88bb6bf5f34fbdef7db32a2ee",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4",
+                "xpac/core": "1.0.1"
+            },
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "XPACGroup\\PluginFramework\\v1_0_1\\": "src/"
+                }
+            },
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "XPAC Group",
+                    "email": "xpactheme@gmail.com"
+                }
+            ],
+            "description": "XPAC plugin core",
+            "install-path": "../xpac/plugin"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

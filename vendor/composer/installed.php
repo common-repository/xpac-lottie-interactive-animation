@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'pretty_version' => '1.0.0',
+        'version' => '1.0.0.0',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'reference' => NULL,
+        'name' => 'xpac-plugins/lottie',
+        'dev' => true,
+    ),
+    'versions' => array(
+        'xpac-plugins/lottie' => array(
+            'pretty_version' => '1.0.0',
+            'version' => '1.0.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'reference' => NULL,
+            'dev_requirement' => false,
+        ),
+        'xpac/core' => array(
+            'pretty_version' => '1.0.1',
+            'version' => '1.0.1.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../xpac/core',
+            'aliases' => array(),
+            'reference' => 'aa5ec8ad297a80d18516a2d466d9458657499460',
+            'dev_requirement' => false,
+        ),
+        'xpac/plugin' => array(
+            'pretty_version' => '1.0.1',
+            'version' => '1.0.1.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../xpac/plugin',
+            'aliases' => array(),
+            'reference' => '52c880e490755dc88bb6bf5f34fbdef7db32a2ee',
+            'dev_requirement' => false,
+        ),
+    ),
+);

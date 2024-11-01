@@ -1,0 +1,74 @@
+{
+  "apiVersion": 2,
+  "name": "xp/lottie",
+  "title": "Lottie Animation",
+  "description": "Lightweight, scalable animations for your website",
+  "keywords": [
+    "lottie",
+    "animation",
+    "xpac"
+  ],
+  "supports": {
+  },
+  "category": "media",
+  "attributes": {
+    "id": {
+      "type": "string",
+      "default": "none"
+    },
+    "url": {
+      "type": "string",
+      "default": ""
+    },
+    "mode": {
+      "type": "string",
+      "default": "chain"
+    },
+    "state": {
+      "type": "string",
+      "default": "loop"
+    },
+    "type": {
+      "type": "string",
+      "default": "seek"
+    },
+    "count": {
+      "type": "number",
+      "default": 0
+    },
+    "speed": {
+      "type": "number",
+      "default": 1
+    },
+    "delay": {
+      "type": "number",
+      "default": 0
+    },
+    "visibility_start": {
+      "type": "number",
+      "default": 0
+    },
+    "visibility_end": {
+      "type": "number",
+      "default": 100
+    },
+    "visibility_start_single": {
+      "type": "number",
+      "default": 0
+    },
+    "loop_after_scroll": {
+      "type": "boolean",
+      "default": false
+    },
+    "link_to": {
+      "type": "string",
+      "default": ""
+    },
+    "link_external": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "editorScript": "file:editor.min.js",
+  "script": "file:front.min.js"
+}

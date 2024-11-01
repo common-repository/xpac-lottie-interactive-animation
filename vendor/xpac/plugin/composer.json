@@ -1,0 +1,28 @@
+{
+  "name": "xpac/plugin",
+  "description": "XPAC plugin core",
+  "author": "the XPAC Group",
+  "version": "1.0.1",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "XPAC Group",
+      "email": "xpactheme@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.4",
+    "xpac/core": "1.0.1"
+  },
+  "repositories": {
+        "10636026": {
+            "type": "composer",
+            "url": "https://gitlab.com/api/v4/group/10636026/-/packages/composer/packages.json"
+        }
+    },
+  "autoload": {
+    "psr-4": {
+      "XPACGroup\\PluginFramework\\v1_0_1\\": "src/"
+    }
+  }
+}
